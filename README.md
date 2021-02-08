@@ -1,3 +1,3 @@
 # My Useful Scripts
-v0.0.1 (Release)
-* Written in Python
+* Some useful executable scripts 
+* Currently all written in Python
