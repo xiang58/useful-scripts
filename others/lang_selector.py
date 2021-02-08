@@ -1,5 +1,5 @@
 import random
 
-languages = ['Java', 'Python', 'JavaScript']
-r = random.randint(0,2)
+languages = ['C', 'C++', 'Java', 'JavaScript', 'php', 'Python']
+r = random.randint(0,5)
 print(languages[r])
