@@ -1,5 +1,5 @@
-## Second Release (v)
+## v0.0.2
 * [**USC-3**](https://github.com/xiang58/useful-scripts/issues/3) Add more languages to lang_selector.py
 ___
 ___
-## Initial Release (v0.0.1)
+## v0.0.1 (Initial Release)
