@@ -13,6 +13,8 @@ def main():
     with open('aaa.txt') as f:
         recs = f.read().splitlines()
 
+    print('Last recrod date: ', recs[0])
+
     # Add a new rec
     if mode == 'a':
 
@@ -42,7 +44,8 @@ def main():
             f.write('\n'.join(recs))
 
     # Show data
-    for i in range(len(recs)):
+    print('Records:', end=' ')
+    for i in range(1, len(recs)):
         print(recs[i], end=' ')
 
     # Make the plot
