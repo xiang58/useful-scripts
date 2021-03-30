@@ -1,4 +1,5 @@
 ## v0.1.0
+* ~~[**US-8**](https://daniel-hengyu-xiang.atlassian.net/browse/US-8) Refactor Functionality (Recs)~~
 * ~~[**US-7**](https://daniel-hengyu-xiang.atlassian.net/browse/US-7) Add Shell Scripts~~
 * ~~[**US-9**](https://daniel-hengyu-xiang.atlassian.net/browse/US-9) Rename Folders~~
 * ~~[**US-6**](https://daniel-hengyu-xiang.atlassian.net/browse/US-6) Retire aaa.py (Recs)~~
