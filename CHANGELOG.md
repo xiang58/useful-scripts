@@ -1,5 +1,5 @@
 ## v0.1.1
-* [**US-12**](https://daniel-hengyu-xiang.atlassian.net/browse/US-12) Refactor Properties (Recs)
+* ~~[**US-12**](https://daniel-hengyu-xiang.atlassian.net/browse/US-12) Refactor Properties (Recs)~~
 ___
 ## &raquo; v0.1.0
 * ~~[**US-8**](https://daniel-hengyu-xiang.atlassian.net/browse/US-8) Refactor Functionality (Recs)~~
