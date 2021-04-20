@@ -1,7 +1,8 @@
-## v0.1.1
+___
+## &raquo; v0.1.1
 * ~~[**US-12**](https://daniel-hengyu-xiang.atlassian.net/browse/US-12) Refactor Properties (Recs)~~
 ___
-## &raquo; v0.1.0
+## v0.1.0
 * ~~[**US-8**](https://daniel-hengyu-xiang.atlassian.net/browse/US-8) Refactor Functionality (Recs)~~
 * ~~[**US-7**](https://daniel-hengyu-xiang.atlassian.net/browse/US-7) Add Shell Scripts~~
 * ~~[**US-9**](https://daniel-hengyu-xiang.atlassian.net/browse/US-9) Rename Folders~~
