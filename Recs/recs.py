@@ -1,7 +1,7 @@
-from random import randint
 import sys
 
-PERIOD = 3
+from random import randint
+from properties import PERIOD, FILE_NAME
 
 ####################################################################
 
@@ -58,7 +58,7 @@ def main():
 			recs[0] = 'c' + str(num)
 
 	# Write records back to file
-	with open('recs.txt', 'w') as f:
+	with open(FILE_NAME, 'w') as f:
 		f.write('\n'.join(recs))
 
 ####################################################################
