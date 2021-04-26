@@ -4,3 +4,4 @@ alias langs="cd 'C:\Users\xiang\Desktop\repos\useful-scripts\Langs' && python la
 alias themes="cd 'C:\Users\xiang\Desktop\repos\useful-scripts\Themes' && python change_theme.py"
 alias recs="cd 'C:\Users\xiang\Desktop\repos\useful-scripts\Recs' && python recs.py"
 alias exercise="cd 'C:\Users\xiang\Desktop\repos\useful-scripts\Exercise' && pipenv run python exercise.py"
+alias aaa="cd 'C:\Users\xiang\Desktop\repos\useful-scripts\AAA' && pipenv run python aaa.py"
