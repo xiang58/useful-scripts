@@ -1,5 +1,6 @@
 ___
 ## &raquo; v0.1.1
+* ~~[**[Bug] US-13**](https://daniel-hengyu-xiang.atlassian.net/browse/US-13) TCL Error (Exercise)~~
 * ~~[**US-12**](https://daniel-hengyu-xiang.atlassian.net/browse/US-12) Refactor Properties (Recs)~~
 ___
 ## v0.1.0
