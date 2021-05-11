@@ -1,5 +1,6 @@
 ___
 ## &raquo; v0.1.2
+* ~~[**[Bug] US-17**](https://daniel-hengyu-xiang.atlassian.net/browse/US-17) Update to Python 3.9 (Exercise, AAA)~~
 * ~~[**US-14**](https://daniel-hengyu-xiang.atlassian.net/browse/US-14) Restore aaa.py (AAA)~~
 ___
 ## v0.1.1
