@@ -1,4 +1,5 @@
 ## V0.1.3
+* ~~[**US-5**](https://daniel-hengyu-xiang.atlassian.net/browse/US-5) Refactor Themes to External File (Themes)~~
 * ~~[**US-20**](https://daniel-hengyu-xiang.atlassian.net/browse/US-20) Refactor Langs in lang_selector.py (Langs)~~
 ___
 ## &raquo; v0.1.2

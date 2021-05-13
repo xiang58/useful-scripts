@@ -1,13 +1,6 @@
 import random
 
-vs_dark_themes = ['1337', 'Blackboard', 'Dark (Visual Studio)', 'Dark+ (default dark)', 'Dracula At Night', 'Monokai Dimmed', 'Sea Green Theme', 'Super One Dark', 'Tomorrow Night Blue']
-vs_light_themes = ['NetBeans Light Theme', 'Github', 'Ysgrifennwr', 'Horla', 'Light (Visual Studio)', 'Light+ (default light)', 'Monokai Light', 'Quiet Light', 'Hop Light']
-
-lc_dark_themes = ['monokai', 'blackboard', 'solarized dark', 'tomorrow night']
-lc_light_themes = ['textmate', 'github', 'xcode', 'eclipse', 'solarized light']
-
-ol_dark_themes = ['ambiance', 'chaos', 'cobalt', 'dracula', 'gob', 'gruvbox', 'idle fingers', 'kr theme', 'merbivore', 'merbivore soft', 'mono industrial', 'monokai', 'nord dark', 'pastel on dark', 'solarized dark', 'terminal', 'tomorrow night', 'tomorrow night blue', 'tomorrow night bright', 'tomorrow night eighties', 'twilight', 'vibrant ink']
-ol_light_themes = ['chrome', 'clouds', 'clouds midnight', 'crimson editor', 'dawn', 'dreamweaver', 'eclipse', 'github', 'iplastic', 'katzenmilch', 'kuroir', 'overleaf', 'solarized light', 'sqlserver', 'textmate', 'tomorrow', 'xcode']
+from properties import VS_DARK, VS_LIGHT, LC_DARK, LC_LIGHT, OL_DARK, OL_LIGHT
 
 option = input("Enter platform ('vs', 'lc', or 'ol'): ")
 if option != 'vs' and option != 'lc' and option != 'ol':
@@ -20,24 +13,25 @@ if dark_or_light != 'd' and dark_or_light != 'l':
 	quit()
 
 if option == 'vs':
-	r = random.randint(0,8)
 	if dark_or_light == 'd':
-		print(vs_dark_themes[r])
+		r = random.randint(0, len(VS_DARK)-1)
+		print(VS_DARK[r])
 	else:
-		print(vs_light_themes[r])
+		r = random.randint(0, len(VS_LIGHT)-1)
+		print(VS_LIGHT[r])
 
 elif option == 'lc':
 	if dark_or_light == 'd':
-		r = random.randint(0,3)
-		print(lc_dark_themes[r])
+		r = random.randint(0, len(LC_DARK)-1)
+		print(LC_DARK[r])
 	else:
-		r = random.randint(0,4)
-		print(lc_light_themes[r])
+		r = random.randint(0, len(LC_LIGHT)-1)
+		print(LC_LIGHT[r])
 
 else:
 	if dark_or_light == 'd':
-		r = random.randint(0,21)
-		print(ol_dark_themes[r])
+		r = random.randint(0, len(OL_DARK)-1)
+		print(OL_DARK[r])
 	else:
-		r = random.randint(0,16)
-		print(ol_light_themes[r])
+		r = random.randint(0, len(OL_LIGHT)-1)
+		print(OL_LIGHT[r])
