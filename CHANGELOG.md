@@ -1,3 +1,5 @@
+## V0.1.3
+* ~~[**US-20**](https://daniel-hengyu-xiang.atlassian.net/browse/US-20) Refactor Langs in lang_selector.py (Langs)~~
 ___
 ## &raquo; v0.1.2
 * ~~[**[Bug] US-17**](https://daniel-hengyu-xiang.atlassian.net/browse/US-17) Update to Python 3.9 (Exercise, AAA)~~

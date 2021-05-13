@@ -1,5 +1,6 @@
 import random
 
-languages = ['C', 'C++', 'Java', 'JavaScript', 'php', 'Python']
-r = random.randint(0,5)
-print(languages[r])
+from properties import LANGS
+
+r = random.randint(0, len(LANGS)-1)
+print('Selected languages:', LANGS[r])
