@@ -1,4 +1,5 @@
 ## v0.1.4
+* [**[Bug] US-22**](https://daniel-hengyu-xiang.atlassian.net/browse/US-22) `properties.py` Gone
 * ~~[**[Bug] US-21**](https://daniel-hengyu-xiang.atlassian.net/browse/US-21) Recreating Virtual Env (Exercise, AAA)~~
 ___
 ## &raquo; v0.1.3
